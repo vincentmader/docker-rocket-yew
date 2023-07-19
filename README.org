@@ -1,0 +1,12 @@
+When you wish to run the server and/or client locally without making use of Docker,
+there are a few things you should do:
+
+1. Install WebAssembly target.
+#+begin_src shell
+  rustup target add wasm32-unknown-unknown
+#+end_src
+
+2. Install `trunk`.
+#+begin_src shell
+  cargo install --locked trunk
+#+end_src
