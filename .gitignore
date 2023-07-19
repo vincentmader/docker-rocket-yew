@@ -2,4 +2,5 @@
 ._*
 Cargo.lock
 client/dist
+server/static/dist
 target
