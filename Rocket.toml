@@ -1,5 +1,6 @@
 [global]
 template_dir = "server/templates"
+port = 8314
 
 [debug]
 address = "127.0.0.1"
